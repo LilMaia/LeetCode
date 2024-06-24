@@ -15,3 +15,9 @@ class Solution:
             # Update the previous value
             prev_value = value
         return total
+
+# Complexity:
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
+#The roman_values dictionary uses O(1) space because it contains a fixed number of mappings (7), regardless of the input size.
